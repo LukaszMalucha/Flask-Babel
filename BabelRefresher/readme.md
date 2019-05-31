@@ -12,3 +12,7 @@ pybabel init -i messages.pot -d translations -l pl
 
 ##### Compile
 pybabel compile -d translations
+
+##### Update
+pybabel update -i messages.pot -d translations
+
